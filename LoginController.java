@@ -76,6 +76,8 @@ public class LoginController {
 
       return "html/Login";
     }
+	
+	//テスト用コメント
 
 }
 
