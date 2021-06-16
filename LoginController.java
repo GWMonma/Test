@@ -66,12 +66,12 @@ public class LoginController {
    }
 
     //ログアウトする際にSessionを切る
+	  //追加
     @PostMapping(value = "logout")
     public String load() {
      userlogic.logout();
 
       return "html/Login";
     }
-
 
 }
